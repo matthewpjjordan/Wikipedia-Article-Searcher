@@ -1,0 +1,54 @@
+body {
+	float: center;
+	background-color: #1C2B25;
+	font-family: 'Roboto', sans-serif;
+}
+
+#searchBar {
+	text-align: center;
+}
+
+#secondRow {
+	margin-top: 5px;
+}
+
+input {
+	background-color: #DF9027;
+	color: white;
+	border: 0px;
+}
+
+::placeholder {
+	color: white;
+}
+
+button {
+	background-color: #DF9027;
+	color: white;
+	border: 0px;
+}
+
+.results {
+	background-color: white;
+	margin: 5px auto;
+	border: 5px solid white;
+}
+
+.results:hover {
+	border-left: 5px solid #EF9620;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:hover {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+footer {
+	text-align: center;
+	color: white;
+}
